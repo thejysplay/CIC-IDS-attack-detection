@@ -84,6 +84,38 @@ Idle Min: 유휴 상태의 최소
 Label: 네트워크 트래픽 종류
 </pre>
 
+Label
+<pre>
+BENIGN: 정상적인 네트워크 트래픽입니다.
+  
+DoS Hulk: Hulk는 대규모 DDoS(분산 서비스 거부) 공격 유형 중 하나입니다. 이 유형의 공격은 대상 서버에 대량의 HTTP GET 또는 POST 요청을 보내어 서버 리소스를 고갈시키는 것을 목표로 합니다.
+  
+PortScan: 공격자가 대상 네트워크 또는 컴퓨터에 대해 여러 포트에 대한 접근 가능성을 탐지하는 시도를 수행합니다. 이는 네트워크 침입의 초기 단계로 사용될 수 있습니다.
+  
+DDoS: 분산 서비스 거부(DDoS) 공격은 여러 소스에서 공동으로 대상 시스템에 대량의 트래픽을 보내어 시스템을 다운시키는 공격입니다.
+  
+DoS GoldenEye: GoldenEye는 HTTP Flood DDoS 공격의 한 유형입니다. 이 유형의 공격은 다수의 공격자가 대상 서버에 대량의 HTTP GET 또는 POST 요청을 보내는 것을 목표로 합니다.
+  
+FTP-Patator: FTP-Patator는 대상 FTP 서버에 대해 사전 인증을 사용하여 암호를 찾는 공격입니다.
+  
+SSH-Patator: SSH-Patator는 대상 SSH 서버에 대해 사전 인증을 사용하여 암호를 찾는 공격입니다.
+  
+DoS slowloris: Slowloris는 웹 서버를 대상으로 하는 DoS 공격 유형 중 하나로, 공격자가 웹 서버에 여러 연결을 유지하고 연결을 끊지 않은 채로 보내는 요청을 보냄으로써 서버의 연결 가능한 스레드를 모두 점유하는 것을 목표로 합니다.
+  
+DoS Slowhttptest: Slowhttptest는 Slowloris와 유사하지만 HTTP 요청을 사용하여 웹 서버를 대상으로 하는 DoS 공격입니다.
+  
+Bot: 시스템을 감염시켜 원격에서 제어할 수 있는 해커가 설치한 악성 소프트웨어입니다.
+  
+Web Attack - Brute Force: 무차별 대입 공격(Brute Force)은 공격자가 사용자 이름 및 암호의 조합을 시도하여 시스템에 액세스하는 것을 목표로 합니다.
+  
+Web Attack - XSS: Cross-Site Scripting (XSS) 공격은 공격자가 웹 애플리케이션에 악성 스크립트를 삽입하여 사용자의 브라우저에서 실행되도록 하는 것을 목표로 합니다.
+  
+Infiltration: 시스템 또는 네트워크에 비인가적으로 접근하여 정보를 유출하려는 시도입니다.
+  
+Web Attack - Sql Injection: SQL Injection은 악의적인 SQL 문을 웹 애플리케이션의 입력 필드에 삽입하여 데이터베이스에 대한 액세스 권한을 부여하거나 데이터를 조작하는 공격입니다.
+  
+Heartbleed: OpenSSL의 Heartbeat 확장에 있는 버그를 이용하여 원격으로 시스템의 메모리를 읽는 공격입니다.
+</pre>
 
 
 
