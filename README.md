@@ -2,7 +2,7 @@
 AI프레임워크 보안 1주차 수행과제
 해당 데이터 셋은 https://www.unb.ca/cic/datasets/ids-2017.html
 
-
+<pre>
 TCP/UDP 포트 번호 중 목적지 포트 번호
 Flow Duration: 플로우 지속 시간
 Total Fwd Packets: 전방 패킷 총 수
@@ -82,7 +82,7 @@ Idle Std: 유휴 상태의 표준편차
 Idle Max: 유휴 상태의 최대
 Idle Min: 유휴 상태의 최소
 Label: 네트워크 트래픽 종류
-
+</pre>
 
 
 
