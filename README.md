@@ -2,6 +2,7 @@
 AI프레임워크 보안 1주차 수행과제
 해당 데이터 셋은 https://www.unb.ca/cic/datasets/ids-2017.html
 
+dddd
 <pre>
 TCP/UDP 포트 번호 중 목적지 포트 번호
 Flow Duration: 플로우 지속 시간
